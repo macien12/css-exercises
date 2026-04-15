@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+.numberodd {
+    background-color: rgb(255,   192, 203);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}/* Add CSS Styling */
+
+.numbertwo {
+    color: blue;
+    font-size: 36px;
+}
+
+.numberodd.subsection2 {
+    font-size: 24px;
+}
+
+#numberfour {
+    background-color: #00FF7F;
+    font-size: 24px;
+    font-weight: bold;
+}
