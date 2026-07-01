@@ -46,3 +46,39 @@ html {
   color: white;
   text-align: left;
 }
+
+
+
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns:  1fr 3fr; 
+    grid-template-areas:
+    "hd hd"
+    "sd nv"
+    "sd ar"
+    "ft ft";
+}
+
+.header {
+  grid-area: hd;
+}
+
+.sidebar {
+  grid-area: sd;
+}
+
+
+.nav {
+  grid-area: nv;
+}
+
+
+.article {
+  grid-area: ar;
+}
+
+
+.footer {
+  grid-area: ft;
+}
